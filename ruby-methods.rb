@@ -57,7 +57,7 @@ def get_contact
 end
 end
 
-# Using Array#map, write a method called get_responses that takes an array of questions (strings) and returns an array of responses input from the console for each question. (Hint: you will need to use gets.chomp and puts ).
+# Using Array#map, write a method called get_responses that takes an array of questions (strings) and returns an array of responses input from the console for each question.
 
 def get_responses(array_of_questions)
   array_of_answers = []
